@@ -16,6 +16,13 @@ const routes = [
     name: 'Login',
     component: () => import('../views/Login.vue'),
     meta: { title: '登录' }
+  },
+  // 模块路由
+  {
+    path: '/customer-management',
+    name: 'CustomerManagement',
+    component: () => import('../views/modules/CustomerManagement.vue'),
+    meta: { title: '客户管理', requiresAuth: true }
   }
 ]
 
