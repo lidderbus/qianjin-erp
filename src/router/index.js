@@ -29,6 +29,12 @@ const routes = [
     name: 'QuoteManagement',
     component: () => import('../views/modules/QuoteManagement.vue'),
     meta: { title: '报价管理', requiresAuth: true }
+  },
+  {
+    path: '/inventory-management-pro',
+    name: 'InventoryManagementPro',
+    component: () => import('../views/modules/InventoryManagementPro.vue'),
+    meta: { title: '配件库存Pro', requiresAuth: true }
   }
 ]
 
