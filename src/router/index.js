@@ -35,6 +35,12 @@ const routes = [
     name: 'InventoryManagementPro',
     component: () => import('../views/modules/InventoryManagementPro.vue'),
     meta: { title: '配件库存Pro', requiresAuth: true }
+  },
+  {
+    path: '/gearbox-selection',
+    name: 'GearboxSelection',
+    component: () => import('../views/modules/GearboxSelection.vue'),
+    meta: { title: '齿轮箱选型', requiresAuth: true }
   }
 ]
 
