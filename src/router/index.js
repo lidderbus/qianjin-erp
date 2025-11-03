@@ -23,6 +23,12 @@ const routes = [
     name: 'CustomerManagement',
     component: () => import('../views/modules/CustomerManagement.vue'),
     meta: { title: '客户管理', requiresAuth: true }
+  },
+  {
+    path: '/quote-management',
+    name: 'QuoteManagement',
+    component: () => import('../views/modules/QuoteManagement.vue'),
+    meta: { title: '报价管理', requiresAuth: true }
   }
 ]
 
